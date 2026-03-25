@@ -18,6 +18,6 @@ export interface InvitationData {
     image?: string;
   };
   events: EventDetail[];
-  gallery: string[];
+  venueImage?: string;
   rsvpUrl?: string;
 }

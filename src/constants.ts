@@ -4,12 +4,13 @@ export const INVITATION_DATA: InvitationData = {
   groom: "Hemanth. M (Nikhil)",
   bride: "Priyanka. T. M",
   weddingDate: "2026-04-26T10:00:00",
-  heroImage: "https://picsum.photos/seed/wedding-hero/1200/1600",
+  heroImage: "/WhatsApp Image 2026-03-25 at 15.00.03.jpeg",
   welcome: {
     title: "A Warm Welcome",
     content: "With the blessings of SMT. GIRIJA & SRI. MAHADEV. N and Smt. Roopa. E & Late Sri. Mohan. T.N., we cordially invite you to witness the union of Hemanth and Priyanka. Your presence and blessings are the greatest gifts we could receive as we begin this new chapter together.",
-    image: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069&auto=format&fit=crop"
+    image: "/WhatsApp Image 2026-03-25 at 15.00.03 (1).jpeg"
   },
+  venueImage: "/WhatsApp Image 2026-03-25 at 15.08.01.jpeg",
   events: [
     {
       title: "Reception",
@@ -35,14 +36,6 @@ export const INVITATION_DATA: InvitationData = {
       locationUrl: "https://maps.google.com/?q=Bhagirathi+Convention+Hall+Harihar",
       description: "A celebratory lunch following the wedding ceremony."
     }
-  ],
-  gallery: [
-    "https://picsum.photos/seed/gallery1/600/800",
-    "https://picsum.photos/seed/gallery2/600/800",
-    "https://picsum.photos/seed/gallery3/600/800",
-    "https://picsum.photos/seed/gallery4/600/800",
-    "https://picsum.photos/seed/gallery5/600/800",
-    "https://picsum.photos/seed/gallery6/600/800"
   ],
   rsvpUrl: "https://forms.gle/example"
 };

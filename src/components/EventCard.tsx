@@ -15,7 +15,7 @@ const EventCard: React.FC<EventCardProps> = ({ event, index }) => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ delay: index * 0.1, duration: 0.8 }}
-      className="glass-card p-8 mb-8 relative overflow-hidden group hover:shadow-2xl transition-all duration-500 border-4 border-white"
+      className="glass-card p-8 mb-8 relative overflow-hidden group hover:shadow-2xl transition-all duration-500"
     >
       <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 -mr-16 -mt-16 rounded-full group-hover:scale-150 transition-transform duration-700" />
       
@@ -30,7 +30,7 @@ const EventCard: React.FC<EventCardProps> = ({ event, index }) => {
           </div>
           <div>
             <p className="text-[10px] uppercase tracking-widest opacity-60 font-medium">Date</p>
-            <p className="font-medium">{event.date}</p>
+            <p className="font-bold text-text">{event.date}</p>
           </div>
         </div>
 
@@ -60,15 +60,6 @@ const EventCard: React.FC<EventCardProps> = ({ event, index }) => {
           {event.description}
         </p>
       )}
-
-      <a
-        href={event.locationUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mt-8 inline-flex items-center justify-center w-full py-4 rounded-xl bg-primary text-white font-medium tracking-widest uppercase text-xs hover:bg-primary/90 transition-colors shadow-lg shadow-primary/20"
-      >
-        View on Maps
-      </a>
     </motion.div>
   );
 };
