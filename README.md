@@ -1,20 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 💍 Hemanth & Priyanka — Interactive Wedding Experience & RSVP Microsite
 
-# Run and deploy your AI Studio app
+[![React](https://img.shields.io/badge/React-18.x-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev)
+[![Framer Motion](https://img.shields.io/badge/Motion-Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://framer.com/motion)
+[![Tailwind](https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
 
-This contains everything you need to run your app locally.
+> An interactive personalized wedding microsite featuring animated couple stories, event itineraries, Google Maps venue directions, dynamic photo galleries, and guest RSVP collection.
 
-View your app in AI Studio: https://ai.studio/apps/150cce08-18d1-40a0-b6e7-962cb9c8422f
+---
 
-## Run Locally
+## ✨ Features
 
-**Prerequisites:**  Node.js
+- 📖 **Our Story Timeline:** Interactive narrative timeline with parallax photo progression.
+- 🗺️ **Interactive Venue Guide:** Embedded map navigation and schedule countdown timers.
+- 💌 **Digital Guestbook & RSVP:** Online RSVP submissions with guest wishes.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🚀 Quick Start
+```bash
+git clone https://github.com/sangamesh5588/Hemanth-Priyanka-.git
+cd Hemanth-Priyanka-
+npm install
+npm run dev
+```
+
+## 🛡️ License
+Copyright © 2026 Sangamesh K. All rights reserved.
